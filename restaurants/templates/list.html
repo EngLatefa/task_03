@@ -6,5 +6,9 @@
     </head>
     <body>
 
+    	{%  for restaurant in restaurants %}
+    	{{ restaurant.name }} - {{ restaurant.type }} - {{ restaurant.rating }} <br>
+    	{% endfor %}
+
     </body>
 </html>
